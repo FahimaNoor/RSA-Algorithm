@@ -1,0 +1,37 @@
+# IDs
+MY_ID = 40268465
+PARTNER_ID = 40279337
+
+# my data
+p = 49463
+q = 51059
+N = 2525531317
+phi_N = 2525430796
+e = 173879093
+d = 1539027341
+
+# my partner data
+PARTNER_N = 1724525471
+PARTNER_e = 1548545119
+
+# encryption
+MY_MESSAGE = "I wish to see the Aurora Borealis someday."
+MY_MESSAGE_chunks = ['I w', 'ish', ' to', ' se', 'e t', 'he ', 'Aur', 'ora', ' Bo', 'rea', 'lis', ' so', 'med', 'ay.']
+MY_CIPHERTEXT = [710642559, 1505287012, 526104350, 1349473478, 1167983707, 441756265, 1500779454, 673042567, 545545119, 351421923, 1620087107, 1020165487, 188114433, 927390040]
+
+# decryption
+PARTNER_CIPHERTEXT = [564941312, 2438733904, 459565689, 856100212, 1773844201, 1228048082, 27760366, 1587440285, 30142684]
+PARTNER_MESSAGE_chunks_AFTER_DECRYPT = ['Enc', 'ryp', 'tio', 'n o', 'f v', 'ire', 'n v', 'ira', 'ni']
+PARTNER_MESSAGE_AFTER_DECRYPT = "Encryption of viren virani"
+
+
+# sign
+MY_MESSAGE_TO_BE_SIGNED = "Fahima Noor"
+MY_MESSAGE_TO_BE_SIGNED_chunks = ['Fah', 'ima', ' No', 'or']
+MY_SIGNATURE =  [950301236, 1743847582, 2081717385, 1043079059]
+
+# verfiy the signature
+PARTNER_SIGNED_MESSAGE = "viren virani"
+PARTNER_SIGNATURE = [944279938, 511933836, 944279938, 1151309101]
+#IS_VALID_SIGNATURE should be True or False
+IS_VALID_SIGNATURE = True
